@@ -88,7 +88,7 @@ class Snake:
                         xdir, ydir = 1, 0
                     elif c == 'j' and ydir != -1:
                         xdir, ydir = 0, 1
-                    elif c == 'k' and ydir != -1:
+                    elif c == 'k' and ydir != 1:
                         xdir, ydir = 0, -1
 
             # Gameover
